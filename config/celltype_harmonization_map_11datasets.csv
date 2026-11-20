@@ -1,0 +1,118 @@
+dataset,paper,region,author_label,author_level,unified_L1,unified_L2,unified_L3,author_markers,confidence,note
+GSE243639,Martirosyan 2024 Mol Neurodegener,SNpc,Oligo,major,Oligodendrocyte,Oligodendrocyte,,,Verified in paper text,author_celltype column
+GSE243639,Martirosyan 2024 Mol Neurodegener,SNpc,OPC,major,OPC,OPC,,,Verified in paper text,author_celltype column
+GSE243639,Martirosyan 2024 Mol Neurodegener,SNpc,Astro,major,Astrocyte,Astrocyte,,,Verified in paper text,author_celltype column
+GSE243639,Martirosyan 2024 Mol Neurodegener,SNpc,Micro,major,Microglia/Myeloid,Microglia,,,Verified in paper text,author_celltype column
+GSE243639,Martirosyan 2024 Mol Neurodegener,SNpc,T cells,major,T cell,T cell,,,Verified in paper text,author_celltype column
+GSE243639,Martirosyan 2024 Mol Neurodegener,SNpc,Neurons,major,Neuron,Neuron (unsplit),,,Verified in paper text,TH-enriched subpopulation described in text but not a separate label
+GSE243639,Martirosyan 2024 Mol Neurodegener,SNpc,VC,major,Vascular,Vascular (mixed),,,Verified in paper text,endothelial+pericyte+fibroblast-like merged; split by markers if needed
+GSE157783,Smajić 2022 Brain,Midbrain,Oligodendrocytes,major,Oligodendrocyte,Oligodendrocyte,,,Verified in paper text,author cell_ontology column
+GSE157783,Smajić 2022 Brain,Midbrain,OPCs,major,OPC,OPC,,,Verified in paper text,author cell_ontology column
+GSE157783,Smajić 2022 Brain,Midbrain,Astrocytes,major,Astrocyte,Astrocyte,,,Verified in paper text,author cell_ontology column
+GSE157783,Smajić 2022 Brain,Midbrain,Microglia,major,Microglia/Myeloid,Microglia,,,Verified in paper text,author cell_ontology column
+GSE157783,Smajić 2022 Brain,Midbrain,Endothelial cells,major,Vascular,Endothelial,,,Verified in paper text,author cell_ontology column
+GSE157783,Smajić 2022 Brain,Midbrain,Pericytes,major,Vascular,Pericyte,,,Verified in paper text,author cell_ontology column
+GSE157783,Smajić 2022 Brain,Midbrain,Ependymal,major,Ependymal,Ependymal,,,Verified in paper text,author cell_ontology column
+GSE157783,Smajić 2022 Brain,Midbrain,DaNs,neuron subtype,Neuron,DA neuron,,TH,Verified in paper text,
+GSE157783,Smajić 2022 Brain,Midbrain,CADPS2+ neurons,neuron subtype,Neuron,CADPS2/RIT2 low-TH neuron,,CADPS2 (TH low),Verified in paper text,PD-specific neuronal state
+GSE157783,Smajić 2022 Brain,Midbrain,Excitatory,neuron subtype,Neuron,Excitatory (glutamatergic) neuron,,SLC17A6,Verified in paper text,
+GSE157783,Smajić 2022 Brain,Midbrain,Inhibitory,neuron subtype,Neuron,Inhibitory (GABAergic) neuron,,GAD2,Verified in paper text,
+GSE157783,Smajić 2022 Brain,Midbrain,GABA,neuron subtype,Neuron,Inhibitory (GABAergic) neuron,,"GAD2, GRIK1",Verified in paper text,
+GSE184950,Wang 2024 (bioRxiv 2022),SN,Oligodendrocytes,major,Oligodendrocyte,Oligodendrocyte,,MOG,Verified in paper text,
+GSE184950,Wang 2024 (bioRxiv 2022),SN,OPC,major,OPC,OPC,,VCAN,Verified in paper text,
+GSE184950,Wang 2024 (bioRxiv 2022),SN,Astrocytes,major,Astrocyte,Astrocyte,,AQP4,Verified in paper text,
+GSE184950,Wang 2024 (bioRxiv 2022),SN,Microglia,major,Microglia/Myeloid,Microglia,,"C3, CSF1R, CD74, TYROBP",Verified in paper text,
+GSE184950,Wang 2024 (bioRxiv 2022),SN,Endothelia,major,Vascular,Endothelial,,FLT1,Verified in paper text,
+GSE184950,Wang 2024 (bioRxiv 2022),SN,Pericytes,major,Vascular,Pericyte,,PDGFRB,Verified in paper text,
+GSE184950,Wang 2024 (bioRxiv 2022),SN,Fibroblast-like cells,major,Vascular,Fibroblast-like,,,Verified in paper text,
+GSE184950,Wang 2024 (bioRxiv 2022),SN,T cells,major,T cell,T cell,,,Verified in paper text,
+GSE184950,Wang 2024 (bioRxiv 2022),SN,"DA neurons (c6_2, c7_3)",neuron subtype,Neuron,DA neuron,,"TH, SLC18A2, SLC6A3",Verified in paper text,
+GSE184950,Wang 2024 (bioRxiv 2022),SN,RIT2-enriched neurons (c9),neuron subtype,Neuron,CADPS2/RIT2 low-TH neuron,,"RIT2, CADPS2, GRIK2, CDH18",Verified in paper text,
+GSE184950,Wang 2024 (bioRxiv 2022),SN,"Glutamatergic neurons (c6_1, c7_2)",neuron subtype,Neuron,Excitatory (glutamatergic) neuron,,SLC17A6 (SLC17A7),Verified in paper text,
+GSE184950,Wang 2024 (bioRxiv 2022),SN,"GABAergic neurons (c6_3, c7_1)",neuron subtype,Neuron,Inhibitory (GABAergic) neuron,,"GAD1, GAD2",Verified in paper text,
+GSE148434,Lee 2023 Sci Adv,SN,DopaNs,major,Neuron,DA neuron,,,Verified in paper text,
+GSE148434,Lee 2023 Sci Adv,SN,GabaN,major,Neuron,Inhibitory (GABAergic) neuron,,,Verified in paper text,
+GSE148434,Lee 2023 Sci Adv,SN,Oligo,major,Oligodendrocyte,Oligodendrocyte,,,Verified in paper text,
+GSE148434,Lee 2023 Sci Adv,SN,OPCs,major,OPC,OPC,,,Verified in paper text,
+GSE148434,Lee 2023 Sci Adv,SN,Ast,major,Astrocyte,Astrocyte,,,Verified in paper text,
+GSE148434,Lee 2023 Sci Adv,SN,Micro,major,Microglia/Myeloid,Microglia,,,Verified in paper text,
+GSE148434,Lee 2023 Sci Adv,SN,Endo,major,Vascular,Endothelial,,,Verified in paper text,
+GSE148434,Lee 2023 Sci Adv,SN,Peri,major,Vascular,Pericyte,,,Verified in paper text,
+GSE253462,Jakubiak/Ma 2025 Nat Commun (bioRxiv 2024),SN + cingulate cortex,astrocyte,major,Astrocyte,Astrocyte,,,Verified in paper text,Paper states marker-based lineages; full cluster markers in Tables S4–S5
+GSE253462,Jakubiak/Ma 2025 Nat Commun (bioRxiv 2024),SN + cingulate cortex,protoplasmic astrocytes,subtype,Astrocyte,Astrocyte,Protoplasmic astrocyte,CD44-low,Verified in paper text,
+GSE253462,Jakubiak/Ma 2025 Nat Commun (bioRxiv 2024),SN + cingulate cortex,fibrous-like astrocytes,subtype,Astrocyte,Astrocyte,Fibrous-like / CD44+ astrocyte,"CD44, GFAP",Verified in paper text,
+GSE253462,Jakubiak/Ma 2025 Nat Commun (bioRxiv 2024),SN + cingulate cortex,neuron,major,Neuron,Neuron (unsplit),,,Verified in paper text,Paper states marker-based lineages; full cluster markers in Tables S4–S5
+GSE253462,Jakubiak/Ma 2025 Nat Commun (bioRxiv 2024),SN + cingulate cortex,SN TH+ neurons,subtype,Neuron,DA neuron,,TH,Verified in paper text,SN only
+GSE253462,Jakubiak/Ma 2025 Nat Commun (bioRxiv 2024),SN + cingulate cortex,cingulate layer 2-3 CUX2+ glutamatergic neurons,subtype,Neuron,Excitatory (glutamatergic) neuron,L2-3 IT (CUX2+),CUX2,Verified in paper text,cingulate only
+GSE253462,Jakubiak/Ma 2025 Nat Commun (bioRxiv 2024),SN + cingulate cortex,oligodendrocyte,major,Oligodendrocyte,Oligodendrocyte,,,Verified in paper text,
+GSE253462,Jakubiak/Ma 2025 Nat Commun (bioRxiv 2024),SN + cingulate cortex,OPC,major,OPC,OPC,,,Verified in paper text,
+GSE253462,Jakubiak/Ma 2025 Nat Commun (bioRxiv 2024),SN + cingulate cortex,myeloid,major,Microglia/Myeloid,Microglia,,,Verified in paper text,
+GSE253462,Jakubiak/Ma 2025 Nat Commun (bioRxiv 2024),SN + cingulate cortex,baseline/homeostatic myeloid cells,state,Microglia/Myeloid,Microglia,Homeostatic microglia,,Verified in paper text,
+GSE253462,Jakubiak/Ma 2025 Nat Commun (bioRxiv 2024),SN + cingulate cortex,activated microglia/myeloid cells,state,Microglia/Myeloid,Microglia,Activated / DAM-like microglia,,Verified in paper text,
+GSE253462,Jakubiak/Ma 2025 Nat Commun (bioRxiv 2024),SN + cingulate cortex,monocytes/BAMs,subtype,Microglia/Myeloid,Macrophage/BAM/Monocyte,Border-associated macrophage,"CD163, MRC1",Verified in paper text,
+GSE253462,Jakubiak/Ma 2025 Nat Commun (bioRxiv 2024),SN + cingulate cortex,endothelial,major,Vascular,Endothelial,,,Verified in paper text,
+GSE253462,Jakubiak/Ma 2025 Nat Commun (bioRxiv 2024),SN + cingulate cortex,vascular,major,Vascular,Vascular (mixed),,,Verified in paper text,listed separately from endothelial → likely pericyte/SMC/fibroblast; check markers
+GSE253462,Jakubiak/Ma 2025 Nat Commun (bioRxiv 2024),SN + cingulate cortex,T-cell,major,T cell,T cell,CD8+ T cell,CD8A,Verified in paper text,mostly CD8+
+GSE235330,Pech 2025 eLife (human part),NBM + NAc + putamen,37 clusters (36 in summary sheet),all,TBD,TBD,,,PENDING: labels not retrievable online; read from GEO/supp metadata,"Expected classes for NBM/NAc/Put: cholinergic neurons, MSNs, other GABAergic interneurons, glutamatergic neurons, astrocytes, oligodendrocytes, OPC, microglia, vascular. Fill one row per author cluster from GEO cell metadata."
+GSE178146,Feleke 2021 Acta Neuropathol,Anterior cingulate cortex,excitatory neurons,major,Neuron,Excitatory (glutamatergic) neuron,,,Verified in paper text,assigned by Fisher overlap with merged marker lists from two human snRNA-seq references
+GSE178146,Feleke 2021 Acta Neuropathol,Anterior cingulate cortex,inhibitory neurons,major,Neuron,Inhibitory (GABAergic) neuron,,,Verified in paper text,assigned by Fisher overlap with merged marker lists from two human snRNA-seq references
+GSE178146,Feleke 2021 Acta Neuropathol,Anterior cingulate cortex,oligodendrocytes,major,Oligodendrocyte,Oligodendrocyte,,,Verified in paper text,assigned by Fisher overlap with merged marker lists from two human snRNA-seq references
+GSE178146,Feleke 2021 Acta Neuropathol,Anterior cingulate cortex,astrocytes,major,Astrocyte,Astrocyte,,,Verified in paper text,assigned by Fisher overlap with merged marker lists from two human snRNA-seq references
+GSE178146,Feleke 2021 Acta Neuropathol,Anterior cingulate cortex,microglia,major,Microglia/Myeloid,Microglia,,,Verified in paper text,assigned by Fisher overlap with merged marker lists from two human snRNA-seq references
+GSE178146,Feleke 2021 Acta Neuropathol,Anterior cingulate cortex,oligodendrocyte-precursors (OPCs),major,OPC,OPC,,,Verified in paper text,assigned by Fisher overlap with merged marker lists from two human snRNA-seq references
+GSE178146,Feleke 2021 Acta Neuropathol,Anterior cingulate cortex,vascular cells,major,Vascular,Vascular (mixed),,,Verified in paper text,endothelial cells + pericytes merged by authors
+GSE161045,Xu 2023 Nat Aging,Putamen,neurons,major,Neuron,Neuron (unsplit),,,Verified in paper text,striatum: mostly MSNs
+GSE161045,Xu 2023 Nat Aging,Putamen,MSN subpopulations,neuron subtype,Neuron,Inhibitory (GABAergic) neuron,MSN (D1/D2 + novel subtypes),,Paper-level list (spreadsheet/abstract); exact label strings to confirm in GEO metadata,paper describes previously undescribed MSN subpopulations; exact names not retrieved
+GSE161045,Xu 2023 Nat Aging,Putamen,Ast,major,Astrocyte,Astrocyte,,,Verified in paper text,
+GSE161045,Xu 2023 Nat Aging,Putamen,Ast-0,subtype,Astrocyte,Astrocyte,Ast-0 (homeostatic-like),"GPC5, NRXN1",Verified in paper text,
+GSE161045,Xu 2023 Nat Aging,Putamen,Ast-1,subtype,Astrocyte,Astrocyte,Ast-1 (APOE/CLU-high),"APOE, CLU, APOC1",Verified in paper text,
+GSE161045,Xu 2023 Nat Aging,Putamen,Ast-2,subtype,Astrocyte,Astrocyte,Ast-2 (CD44+/TNC+ reactive-like),"CD44, TNC, GFAP, DPP10",Verified in paper text,
+GSE161045,Xu 2023 Nat Aging,Putamen,OLIGO,major,Oligodendrocyte,Oligodendrocyte,,,Verified in paper text,
+GSE161045,Xu 2023 Nat Aging,Putamen,OPC,major,OPC,OPC,,,Verified in paper text,
+GSE161045,Xu 2023 Nat Aging,Putamen,immune,major,Microglia/Myeloid,Immune (mixed),,,Verified in paper text,4 immune populations incl. DAM-like activated microglia; may contain non-microglia — split by markers
+GSE161045,Xu 2023 Nat Aging,Putamen,activated microglia (DAM-like),state,Microglia/Myeloid,Microglia,Activated / DAM-like microglia,,Paper-level list (spreadsheet/abstract); exact label strings to confirm in GEO metadata,
+GSE161045,Xu 2023 Nat Aging,Putamen,EP,major,Vascular,Vascular (mixed),,,Verified in paper text,endothelial cell and pericyte merged
+GSE202210,Zhu 2024 Sci Transl Med,Prefrontal cortex BA9,excitatory neurons,major,Neuron,Excitatory (glutamatergic) neuron,,,Paper-level list (spreadsheet/abstract); exact label strings to confirm in GEO metadata,
+GSE202210,Zhu 2024 Sci Transl Med,Prefrontal cortex BA9,inhibitory neurons,major,Neuron,Inhibitory (GABAergic) neuron,,,Paper-level list (spreadsheet/abstract); exact label strings to confirm in GEO metadata,
+GSE202210,Zhu 2024 Sci Transl Med,Prefrontal cortex BA9,astrocytes,major,Astrocyte,Astrocyte,,,Paper-level list (spreadsheet/abstract); exact label strings to confirm in GEO metadata,
+GSE202210,Zhu 2024 Sci Transl Med,Prefrontal cortex BA9,microglia,major,Microglia/Myeloid,Microglia,,,Paper-level list (spreadsheet/abstract); exact label strings to confirm in GEO metadata,
+GSE202210,Zhu 2024 Sci Transl Med,Prefrontal cortex BA9,oligodendrocytes,major,Oligodendrocyte,Oligodendrocyte,,,Paper-level list (spreadsheet/abstract); exact label strings to confirm in GEO metadata,
+GSE202210,Zhu 2024 Sci Transl Med,Prefrontal cortex BA9,OPC,major,OPC,OPC,,,Paper-level list (spreadsheet/abstract); exact label strings to confirm in GEO metadata,
+GSE202210,Zhu 2024 Sci Transl Med,Prefrontal cortex BA9,Endo,major,Vascular,Endothelial,,,Paper-level list (spreadsheet/abstract); exact label strings to confirm in GEO metadata,
+GSE202210,Zhu 2024 Sci Transl Med,Prefrontal cortex BA9,brain-resident T cells,major,T cell,T cell,,,Paper-level list (spreadsheet/abstract); exact label strings to confirm in GEO metadata,
+GSE193688,Adams 2024 Nat Aging,Midbrain/SN,Neurons (N),major,Neuron,Neuron (unsplit),,"STMN2, TBR1",Verified in paper text,neuron subtypes not recovered by authors
+GSE193688,Adams 2024 Nat Aging,Midbrain/SN,Oligodendrocytes (ODC),major,Oligodendrocyte,Oligodendrocyte,,"MBP, MOG",Verified in paper text,
+GSE193688,Adams 2024 Nat Aging,Midbrain/SN,Astrocytes (AS),major,Astrocyte,Astrocyte,,"GFAP, AQP4",Verified in paper text,
+GSE193688,Adams 2024 Nat Aging,Midbrain/SN,Microglia (MG),major,Microglia/Myeloid,Microglia,,"GPR34, TREM2, C1QC",Verified in paper text,
+GSE193688,Adams 2024 Nat Aging,Midbrain/SN,Oligodendrocyte Precursor Cells (OPCs),major,OPC,OPC,,"OLIG1, OLIG2",Verified in paper text,
+GSE193688,Adams 2024 Nat Aging,Midbrain/SN,Endothelial Cells (EC),major,Vascular,Vascular (mixed),,"FLT1, VWF, PDGFRB",Verified in paper text,EC markers include PDGFRB (pericyte) → treat as mixed vascular
+GSE193688,Adams 2024 Nat Aging,Midbrain/SN,T-cells (T),major,T cell,T cell,,"CD3E, CD8A",Verified in paper text,
+GSE193688,Adams 2024 Nat Aging,Midbrain/SN,Healthy ODC,state (pseudotime),Oligodendrocyte,Oligodendrocyte,Healthy ODC,,Verified in paper text,
+GSE193688,Adams 2024 Nat Aging,Midbrain/SN,At-Risk ODC,state (pseudotime),Oligodendrocyte,Oligodendrocyte,At-risk ODC,,Verified in paper text,
+GSE193688,Adams 2024 Nat Aging,Midbrain/SN,Disease-associated ODC,state (pseudotime),Oligodendrocyte,Oligodendrocyte,Disease-associated ODC,,Verified in paper text,
+GSE193688,Adams 2024 Nat Aging,Midbrain/SN,Homeostatic MG,state (gene-set score),Microglia/Myeloid,Microglia,Homeostatic microglia,"P2RY12, CX3CR1, HEXB",Verified in paper text,"signature score, not a cluster label"
+GSE193688,Adams 2024 Nat Aging,Midbrain/SN,Aging MG,state (gene-set score),Microglia/Myeloid,Microglia,Aging microglia,"IL15, CLEC2B, DOCK5",Verified in paper text,"signature score, not a cluster label"
+GSE193688,Adams 2024 Nat Aging,Midbrain/SN,Stage 1 DAM MG,state (gene-set score),Microglia/Myeloid,Microglia,Activated / DAM-like microglia,"TYROBP, APOE, CTSB",Verified in paper text,"signature score, not a cluster label"
+GSE193688,Adams 2024 Nat Aging,Midbrain/SN,Stage 2 DAM MG,state (gene-set score),Microglia/Myeloid,Microglia,Activated / DAM-like microglia,"TREM2, CST7, LPL, CD9",Verified in paper text,"signature score, not a cluster label"
+GSE193688,Adams 2024 Nat Aging,Midbrain/SN,disease-associated astrocytes,state (gene-set score),Astrocyte,Astrocyte,Disease-associated astrocyte,,Verified in paper text,"signature score, not a cluster label"
+GSE193688,Adams 2024 Nat Aging,Midbrain/SN,A1 reactive astrocytes,state (gene-set score),Astrocyte,Astrocyte,Reactive astrocyte,,Verified in paper text,"signature score, not a cluster label"
+GSE193688,Adams 2024 Nat Aging,Midbrain/SN,GFAP-low astrocytes,state (gene-set score),Astrocyte,Astrocyte,Homeostatic / GFAP-low astrocyte,,Verified in paper text,"signature score, not a cluster label"
+GSE178265,Kamath 2022 Nat Neurosci,SNpc (DA-enriched) + caudate,da,major,Neuron,DA neuron,,"TH, SLC6A3, SLC18A2",Verified in paper text,lowercase class codes as in Kamath metadata; confirm
+GSE178265,Kamath 2022 Nat Neurosci,SNpc (DA-enriched) + caudate,nonda,major,Neuron,"Neuron (non-DA, unsplit)",,,Verified in paper text,lowercase class codes as in Kamath metadata; confirm
+GSE178265,Kamath 2022 Nat Neurosci,SNpc (DA-enriched) + caudate,astro,major,Astrocyte,Astrocyte,,,Verified in paper text,lowercase class codes as in Kamath metadata; confirm
+GSE178265,Kamath 2022 Nat Neurosci,SNpc (DA-enriched) + caudate,mg,major,Microglia/Myeloid,Microglia/Macrophage,,,Verified in paper text,lowercase class codes as in Kamath metadata; confirm
+GSE178265,Kamath 2022 Nat Neurosci,SNpc (DA-enriched) + caudate,olig,major,Oligodendrocyte,Oligodendrocyte,,,Verified in paper text,lowercase class codes as in Kamath metadata; confirm
+GSE178265,Kamath 2022 Nat Neurosci,SNpc (DA-enriched) + caudate,opc,major,OPC,OPC,,,Verified in paper text,lowercase class codes as in Kamath metadata; confirm
+GSE178265,Kamath 2022 Nat Neurosci,SNpc (DA-enriched) + caudate,endo,major,Vascular,Vascular (mixed),,,Verified in paper text,Endothelial cells/pericytes
+GSE178265,Kamath 2022 Nat Neurosci,SNpc (DA-enriched) + caudate,SOX6_AGTR1,DA subtype,Neuron,DA neuron,SOX6+ DA: SOX6_AGTR1,"SOX6, AGTR1",Verified in paper text,most PD-vulnerable; depleted in PD
+GSE178265,Kamath 2022 Nat Neurosci,SNpc (DA-enriched) + caudate,SOX6_PART1,DA subtype,Neuron,DA neuron,SOX6+ DA: SOX6_PART1,"SOX6, PART1",Verified in paper text,
+GSE178265,Kamath 2022 Nat Neurosci,SNpc (DA-enriched) + caudate,SOX6_DDT,DA subtype,Neuron,DA neuron,SOX6+ DA: SOX6_DDT,"SOX6, DDT",Verified in paper text,
+GSE178265,Kamath 2022 Nat Neurosci,SNpc (DA-enriched) + caudate,SOX6_GFRA2,DA subtype,Neuron,DA neuron,SOX6+ DA: SOX6_GFRA2,"SOX6, GFRA2",Verified in paper text,
+GSE178265,Kamath 2022 Nat Neurosci,SNpc (DA-enriched) + caudate,CALB1_GEM,DA subtype,Neuron,DA neuron,CALB1+ DA: CALB1_GEM,"CALB1, GEM",Verified in paper text,
+GSE178265,Kamath 2022 Nat Neurosci,SNpc (DA-enriched) + caudate,CALB1_TRHR,DA subtype,Neuron,DA neuron,CALB1+ DA: CALB1_TRHR,"CALB1, TRHR",Verified in paper text,
+GSE178265,Kamath 2022 Nat Neurosci,SNpc (DA-enriched) + caudate,CALB1_RBP4,DA subtype,Neuron,DA neuron,CALB1+ DA: CALB1_RBP4,"CALB1, RBP4",Verified in paper text,
+GSE178265,Kamath 2022 Nat Neurosci,SNpc (DA-enriched) + caudate,CALB1_CALCR,DA subtype,Neuron,DA neuron,CALB1+ DA: CALB1_CALCR,"CALB1, CALCR",From memory of paper figure; confirm in GEO/SCP metadata,
+GSE178265,Kamath 2022 Nat Neurosci,SNpc (DA-enriched) + caudate,CALB1_CRYM_CCDC68,DA subtype,Neuron,DA neuron,CALB1+ DA: CALB1_CRYM_CCDC68,"CALB1, CRYM, CCDC68",From memory of paper figure; confirm in GEO/SCP metadata,
+GSE178265,Kamath 2022 Nat Neurosci,SNpc (DA-enriched) + caudate,CALB1_PPP1R17,DA subtype,Neuron,DA neuron,CALB1+ DA: CALB1_PPP1R17,"CALB1, PPP1R17",From memory of paper figure; confirm in GEO/SCP metadata,
+GSE178265,Kamath 2022 Nat Neurosci,SNpc (DA-enriched) + caudate,VIM_LHX2 astrocytes,subtype,Astrocyte,Astrocyte,Reactive astrocyte,"VIM, LHX2",Verified in paper text,
+GSE178265,Kamath 2022 Nat Neurosci,SNpc (DA-enriched) + caudate,GPNMB+ microglia,state,Microglia/Myeloid,Microglia,Activated / DAM-like microglia,GPNMB,Verified in paper text,increased in PD/LBD

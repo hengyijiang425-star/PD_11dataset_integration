@@ -1,0 +1,21 @@
+# never commit data or results
+data/
+results/
+plots/
+*.rds
+*.RData
+*.Rhistory
+*.h5
+*.h5ad
+*.h5seurat
+*.mtx
+*.mtx.gz
+*.tar
+*.gz
+*.npy
+*.loom
+.Rproj.user/
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+config/sample_metadata_DRAFT.csv

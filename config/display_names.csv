@@ -1,0 +1,18 @@
+unified_L2,cell_type,color
+DA neuron,DA_Neu,#1f77b4
+CADPS2/RIT2 low-TH neuron,CADPS2_Neu,#ff7f0e
+Excitatory (glutamatergic) neuron,EN,#279e68
+Inhibitory (GABAergic) neuron,IN,#d62728
+MSN,MSN,#ff9896
+Cholinergic neuron,Chol_Neu,#c5b0d5
+Astrocyte,Astro,#aa40fc
+OPC,OPC,#8c564b
+Oligodendrocyte,Oligo,#e377c2
+Microglia,Micro_PVM,#b5bd61
+Macrophage/BAM/Monocyte,Micro_PVM,#b5bd61
+T cell,Adaptive,#17becf
+Pericyte,Mural,#aec7e8
+Endothelial,Endo,#ffbb78
+Fibroblast-like,Fibro,#c49c94
+Ependymal,Ependymal,#98df8a
+Unresolved,Unresolved,#d9d9d9

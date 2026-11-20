@@ -1,0 +1,108 @@
+step,panel,unified_L1,unified_L2,gene,source
+L1,Neuron (pan),Neuron,Neuron (unsplit),RBFOX3,canonical pan-neuronal
+L1,Neuron (pan),Neuron,Neuron (unsplit),SNAP25,canonical pan-neuronal
+L1,Neuron (pan),Neuron,Neuron (unsplit),SYT1,canonical pan-neuronal
+L1,Neuron (pan),Neuron,Neuron (unsplit),MEG3,canonical pan-neuronal
+L1,Astrocyte,Astrocyte,Astrocyte,AQP4,"canonical; Wang 2022 (AQP4); Adams 2024 (GFAP, AQP4)"
+L1,Astrocyte,Astrocyte,Astrocyte,GFAP,"canonical; Wang 2022 (AQP4); Adams 2024 (GFAP, AQP4)"
+L1,Astrocyte,Astrocyte,Astrocyte,SLC1A2,"canonical; Wang 2022 (AQP4); Adams 2024 (GFAP, AQP4)"
+L1,Astrocyte,Astrocyte,Astrocyte,ALDH1L1,"canonical; Wang 2022 (AQP4); Adams 2024 (GFAP, AQP4)"
+L1,Astrocyte,Astrocyte,Astrocyte,GJA1,"canonical; Wang 2022 (AQP4); Adams 2024 (GFAP, AQP4)"
+L1,Oligodendrocyte,Oligodendrocyte,Oligodendrocyte,MBP,"canonical; Wang 2022 (MOG); Adams 2024 (MBP, MOG)"
+L1,Oligodendrocyte,Oligodendrocyte,Oligodendrocyte,PLP1,"canonical; Wang 2022 (MOG); Adams 2024 (MBP, MOG)"
+L1,Oligodendrocyte,Oligodendrocyte,Oligodendrocyte,MOBP,"canonical; Wang 2022 (MOG); Adams 2024 (MBP, MOG)"
+L1,Oligodendrocyte,Oligodendrocyte,Oligodendrocyte,MOG,"canonical; Wang 2022 (MOG); Adams 2024 (MBP, MOG)"
+L1,Oligodendrocyte,Oligodendrocyte,Oligodendrocyte,ST18,"canonical; Wang 2022 (MOG); Adams 2024 (MBP, MOG)"
+L1,OPC,OPC,OPC,PDGFRA,canonical; Wang 2022 (VCAN); Adams 2024 (OLIG1/2)
+L1,OPC,OPC,OPC,VCAN,canonical; Wang 2022 (VCAN); Adams 2024 (OLIG1/2)
+L1,OPC,OPC,OPC,CSPG4,canonical; Wang 2022 (VCAN); Adams 2024 (OLIG1/2)
+L1,OPC,OPC,OPC,PTPRZ1,canonical; Wang 2022 (VCAN); Adams 2024 (OLIG1/2)
+L1,OPC,OPC,OPC,OLIG2,canonical; Wang 2022 (VCAN); Adams 2024 (OLIG1/2)
+L1,Endothelial,Vascular,Endothelial,CLDN5,canonical; Wang 2022 (FLT1); Adams 2024 (FLT1 VWF)
+L1,Endothelial,Vascular,Endothelial,FLT1,canonical; Wang 2022 (FLT1); Adams 2024 (FLT1 VWF)
+L1,Endothelial,Vascular,Endothelial,PECAM1,canonical; Wang 2022 (FLT1); Adams 2024 (FLT1 VWF)
+L1,Endothelial,Vascular,Endothelial,VWF,canonical; Wang 2022 (FLT1); Adams 2024 (FLT1 VWF)
+L1,Pericyte,Vascular,Pericyte,PDGFRB,canonical; Wang 2022 (PDGFRB)
+L1,Pericyte,Vascular,Pericyte,RGS5,canonical; Wang 2022 (PDGFRB)
+L1,Pericyte,Vascular,Pericyte,KCNJ8,canonical; Wang 2022 (PDGFRB)
+L1,Pericyte,Vascular,Pericyte,ABCC9,canonical; Wang 2022 (PDGFRB)
+L1,Fibroblast-like,Vascular,Fibroblast-like,DCN,canonical
+L1,Fibroblast-like,Vascular,Fibroblast-like,COL1A2,canonical
+L1,Fibroblast-like,Vascular,Fibroblast-like,LUM,canonical
+L1,Fibroblast-like,Vascular,Fibroblast-like,COL1A1,canonical
+L1,Ependymal,Ependymal,Ependymal,FOXJ1,canonical
+L1,Ependymal,Ependymal,Ependymal,RSPH1,canonical
+L1,Ependymal,Ependymal,Ependymal,DNAH12,canonical
+L1,Ependymal,Ependymal,Ependymal,CFAP299,canonical
+L1,T cell,T cell,T cell,CD3E,canonical; Adams 2024 (CD3E CD8A); Jakubiak 2025 (CD8)
+L1,T cell,T cell,T cell,CD2,canonical; Adams 2024 (CD3E CD8A); Jakubiak 2025 (CD8)
+L1,T cell,T cell,T cell,SKAP1,canonical; Adams 2024 (CD3E CD8A); Jakubiak 2025 (CD8)
+L1,T cell,T cell,T cell,CD8A,canonical; Adams 2024 (CD3E CD8A); Jakubiak 2025 (CD8)
+Neuron,DA neuron,Neuron,DA neuron,TH,Smajic 2022; Wang 2022; Martirosyan 2024; Kamath 2022 (TH SLC6A3 SLC18A2)
+Neuron,DA neuron,Neuron,DA neuron,SLC6A3,Smajic 2022; Wang 2022; Martirosyan 2024; Kamath 2022 (TH SLC6A3 SLC18A2)
+Neuron,DA neuron,Neuron,DA neuron,SLC18A2,Smajic 2022; Wang 2022; Martirosyan 2024; Kamath 2022 (TH SLC6A3 SLC18A2)
+Neuron,DA neuron,Neuron,DA neuron,DDC,Smajic 2022; Wang 2022; Martirosyan 2024; Kamath 2022 (TH SLC6A3 SLC18A2)
+Neuron,DA neuron,Neuron,DA neuron,ALDH1A1,Smajic 2022; Wang 2022; Martirosyan 2024; Kamath 2022 (TH SLC6A3 SLC18A2)
+Neuron,CADPS2/RIT2 low-TH neuron,Neuron,CADPS2/RIT2 low-TH neuron,RIT2,Smajic 2022; Wang 2022
+Neuron,CADPS2/RIT2 low-TH neuron,Neuron,CADPS2/RIT2 low-TH neuron,CADPS2,Smajic 2022; Wang 2022
+Neuron,Excitatory (glutamatergic) neuron,Neuron,Excitatory (glutamatergic) neuron,SLC17A7,canonical; Smajic/Wang (SLC17A6); Adams 2024 (TBR1)
+Neuron,Excitatory (glutamatergic) neuron,Neuron,Excitatory (glutamatergic) neuron,SLC17A6,canonical; Smajic/Wang (SLC17A6); Adams 2024 (TBR1)
+Neuron,Excitatory (glutamatergic) neuron,Neuron,Excitatory (glutamatergic) neuron,SATB2,canonical; Smajic/Wang (SLC17A6); Adams 2024 (TBR1)
+Neuron,Excitatory (glutamatergic) neuron,Neuron,Excitatory (glutamatergic) neuron,TBR1,canonical; Smajic/Wang (SLC17A6); Adams 2024 (TBR1)
+Neuron,Inhibitory interneuron,Neuron,Inhibitory (GABAergic) neuron,GAD1,canonical; Smajic 2022 (GAD2 GRIK1); Wang 2022 (GAD1 GAD2)
+Neuron,Inhibitory interneuron,Neuron,Inhibitory (GABAergic) neuron,GAD2,canonical; Smajic 2022 (GAD2 GRIK1); Wang 2022 (GAD1 GAD2)
+Neuron,Inhibitory interneuron,Neuron,Inhibitory (GABAergic) neuron,SLC32A1,canonical; Smajic 2022 (GAD2 GRIK1); Wang 2022 (GAD1 GAD2)
+Neuron,Inhibitory interneuron,Neuron,Inhibitory (GABAergic) neuron,GRIK1,canonical; Smajic 2022 (GAD2 GRIK1); Wang 2022 (GAD1 GAD2)
+Neuron,MSN,Neuron,Inhibitory (GABAergic) neuron,PPP1R1B,canonical striatal MSN (Xu 2023 putamen; Pech 2025 NAc/putamen)
+Neuron,MSN,Neuron,Inhibitory (GABAergic) neuron,DRD1,canonical striatal MSN (Xu 2023 putamen; Pech 2025 NAc/putamen)
+Neuron,MSN,Neuron,Inhibitory (GABAergic) neuron,DRD2,canonical striatal MSN (Xu 2023 putamen; Pech 2025 NAc/putamen)
+Neuron,MSN,Neuron,Inhibitory (GABAergic) neuron,PENK,canonical striatal MSN (Xu 2023 putamen; Pech 2025 NAc/putamen)
+Neuron,MSN,Neuron,Inhibitory (GABAergic) neuron,TAC1,canonical striatal MSN (Xu 2023 putamen; Pech 2025 NAc/putamen)
+Neuron,MSN,Neuron,Inhibitory (GABAergic) neuron,ADORA2A,canonical striatal MSN (Xu 2023 putamen; Pech 2025 NAc/putamen)
+Neuron,Cholinergic neuron,Neuron,Cholinergic neuron,CHAT,"canonical (NBM, striatal cholinergic interneurons; Pech 2025)"
+Neuron,Cholinergic neuron,Neuron,Cholinergic neuron,SLC5A7,"canonical (NBM, striatal cholinergic interneurons; Pech 2025)"
+Neuron,Cholinergic neuron,Neuron,Cholinergic neuron,SLC18A3,"canonical (NBM, striatal cholinergic interneurons; Pech 2025)"
+Neuron,Cholinergic neuron,Neuron,Cholinergic neuron,ISL1,"canonical (NBM, striatal cholinergic interneurons; Pech 2025)"
+Microglia/Myeloid,Macrophage/BAM,Microglia/Myeloid,Macrophage/BAM/Monocyte,CD163,Jakubiak 2025 (CD163 MRC1); canonical
+Microglia/Myeloid,Macrophage/BAM,Microglia/Myeloid,Macrophage/BAM/Monocyte,MRC1,Jakubiak 2025 (CD163 MRC1); canonical
+Microglia/Myeloid,Macrophage/BAM,Microglia/Myeloid,Macrophage/BAM/Monocyte,LYVE1,Jakubiak 2025 (CD163 MRC1); canonical
+Microglia/Myeloid,Macrophage/BAM,Microglia/Myeloid,Macrophage/BAM/Monocyte,F13A1,Jakubiak 2025 (CD163 MRC1); canonical
+Vascular,Endothelial,Vascular,Endothelial,CLDN5,as above
+Vascular,Endothelial,Vascular,Endothelial,FLT1,as above
+Vascular,Endothelial,Vascular,Endothelial,PECAM1,as above
+Vascular,Endothelial,Vascular,Endothelial,VWF,as above
+Vascular,Pericyte,Vascular,Pericyte,PDGFRB,as above
+Vascular,Pericyte,Vascular,Pericyte,RGS5,as above
+Vascular,Pericyte,Vascular,Pericyte,KCNJ8,as above
+Vascular,Pericyte,Vascular,Pericyte,ABCC9,as above
+Vascular,Smooth muscle,Vascular,Pericyte,ACTA2,canonical (vascular SMC; reported under Pericyte at L2)
+Vascular,Smooth muscle,Vascular,Pericyte,MYH11,canonical (vascular SMC; reported under Pericyte at L2)
+Vascular,Smooth muscle,Vascular,Pericyte,TAGLN,canonical (vascular SMC; reported under Pericyte at L2)
+Vascular,Smooth muscle,Vascular,Pericyte,CNN1,canonical (vascular SMC; reported under Pericyte at L2)
+Vascular,Fibroblast-like,Vascular,Fibroblast-like,DCN,as above
+Vascular,Fibroblast-like,Vascular,Fibroblast-like,COL1A2,as above
+Vascular,Fibroblast-like,Vascular,Fibroblast-like,LUM,as above
+Vascular,Fibroblast-like,Vascular,Fibroblast-like,COL1A1,as above
+L1,Microglia/Myeloid,Microglia/Myeloid,Microglia,P2RY12,snRNA-robust microglia genes (TMEM119/SALL1 poorly detected in nuclei)
+L1,Microglia/Myeloid,Microglia/Myeloid,Microglia,CX3CR1,snRNA-robust microglia genes (TMEM119/SALL1 poorly detected in nuclei)
+L1,Microglia/Myeloid,Microglia/Myeloid,Microglia,CSF1R,snRNA-robust microglia genes (TMEM119/SALL1 poorly detected in nuclei)
+L1,Microglia/Myeloid,Microglia/Myeloid,Microglia,DOCK8,snRNA-robust microglia genes (TMEM119/SALL1 poorly detected in nuclei)
+L1,Microglia/Myeloid,Microglia/Myeloid,Microglia,LRMDA,snRNA-robust microglia genes (TMEM119/SALL1 poorly detected in nuclei)
+Microglia/Myeloid,Microglia,Microglia/Myeloid,Microglia,P2RY12,snRNA-robust microglia genes
+Microglia/Myeloid,Microglia,Microglia/Myeloid,Microglia,CX3CR1,snRNA-robust microglia genes
+Microglia/Myeloid,Microglia,Microglia/Myeloid,Microglia,CSF1R,snRNA-robust microglia genes
+Microglia/Myeloid,Microglia,Microglia/Myeloid,Microglia,DOCK8,snRNA-robust microglia genes
+Microglia/Myeloid,Microglia,Microglia/Myeloid,Microglia,LRMDA,snRNA-robust microglia genes
+Microglia/Myeloid,T cell,T cell,T cell,CD3E,"canonical T cell; seen in test run as myeloid sub-cluster 16 (CD3D, GZMK)"
+Microglia/Myeloid,T cell,T cell,T cell,CD2,"canonical T cell; seen in test run as myeloid sub-cluster 16 (CD3D, GZMK)"
+Microglia/Myeloid,T cell,T cell,T cell,SKAP1,"canonical T cell; seen in test run as myeloid sub-cluster 16 (CD3D, GZMK)"
+Microglia/Myeloid,T cell,T cell,T cell,CD247,"canonical T cell; seen in test run as myeloid sub-cluster 16 (CD3D, GZMK)"
+Astrocyte,Astrocyte,Astrocyte,Astrocyte,AQP4,canonical
+Astrocyte,Astrocyte,Astrocyte,Astrocyte,GFAP,canonical
+Astrocyte,Astrocyte,Astrocyte,Astrocyte,SLC1A2,canonical
+Astrocyte,Astrocyte,Astrocyte,Astrocyte,ALDH1L1,canonical
+Astrocyte,Astrocyte,Astrocyte,Astrocyte,GJA1,canonical
+Astrocyte,Ependymal,Ependymal,Ependymal,FOXJ1,canonical; 24 author-ependymal cells fell into astrocytes in the test run
+Astrocyte,Ependymal,Ependymal,Ependymal,RSPH1,canonical; 24 author-ependymal cells fell into astrocytes in the test run
+Astrocyte,Ependymal,Ependymal,Ependymal,DNAH12,canonical; 24 author-ependymal cells fell into astrocytes in the test run
+Astrocyte,Ependymal,Ependymal,Ependymal,CFAP299,canonical; 24 author-ependymal cells fell into astrocytes in the test run
