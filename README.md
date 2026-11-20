@@ -2,7 +2,7 @@
 
 Re-processes 11 public Parkinson's disease single-nucleus RNA-seq datasets (midbrain/SN, cortex, striatum/basal forebrain) with **one** pipeline: the same QC, one Harmony integration, and one cell-type naming scheme. Every cluster is labelled from a **marker set**, never from a single gene. Two downstream analyses then compare PD and control donors: cell-type composition and pseudobulk differential expression.
 
-> **Status (19 Nov 2026): test run.** Every step runs end to end on a laptop, but on a subsample: at most 300 nuclei loaded per sample, and 200 per donor from integration onward. All numbers below come from this test run. The full run (~1.5 M nuclei) is planned for the Cayuga cluster.
+> **Status (20 Nov 2026): test run.** Every step runs end to end on a laptop, but on a subsample: at most 300 nuclei loaded per sample, and 200 per donor from integration onward. All numbers below come from this test run. The full run (~1.5 M nuclei) is planned for the Cayuga cluster.
 >
 > **No data are in this repository**: no raw or processed counts, Seurat objects or result tables. `data/`, `results/` and `plots/` are git-ignored. The notebooks hold the outputs as they were when the notebooks ran.
 
@@ -73,6 +73,12 @@ python analysis/01_pseudobulk.py         # counts summed per donor x cell type (
 python analysis/02_pseudobulk_DE.py      # pydeseq2, ~ dataset + condition, per region x cell type
 python analysis/03_DE_figures.py         # DE count bars, volcanoes, shared-gene heatmap
 python analysis/04_composition_test.py   # PD vs control proportions, empirical logit ~ PD + dataset, BH within region
+# follow-up (20 Nov)
+python analysis/09_pdgfra_check.py       # CPM of OPC / fibroblast markers per cell type
+python analysis/05_DE_covariates.py Oligo cov   # midbrain DE with age, sex, PMI (cov) or without (nocov), same donors
+python analysis/06_DA_subtypes.py        # SOX6 / AGTR1 / CALB1 detection in every DA nucleus
+python analysis/07_disease_composition.py  # PDD, DLB, LBD, AD vs control composition
+python analysis/08_followup_figures.py
 ```
 
 Python packages: pandas, numpy, scipy, statsmodels, matplotlib, adjustText, pydeseq2, rdata (reads the per-sample `.rds` counts).
@@ -85,6 +91,7 @@ Python packages: pandas, numpy, scipy, statsmodels, matplotlib, adjustText, pyde
 | `02_atlas_overview.ipynb` | Cell-type counts, UMAPs by cell type and dataset, cell-type mix per dataset, agreement with author labels, dataset mixing per cluster, marker dot plots |
 | `03_composition_test.ipynb` | PD vs control composition test; midbrain DA neurons per donor |
 | `04_pseudobulk_DE.ipynb` | DE summary, volcano plots, top genes, stress-gene caveat |
+| `05_followup.ipynb` | PDGFRA check, DE with age/sex/PMI, DA subtypes, other Lewy-body diagnoses |
 
 ## Results so far (test run)
 
@@ -94,17 +101,22 @@ Python packages: pandas, numpy, scipy, statsmodels, matplotlib, adjustText, pyde
 - Glia mix across datasets (94–100 % of glial nuclei sit in clusters shared by ≥ 8 datasets). Only 50 % of neurons do, which is expected because each region has different neurons.
 - **Midbrain DA neurons are lower in PD**: 2.27 % → 0.90 %, lower in 6 of 7 datasets, p = 0.004, FDR = 0.048 (`04_composition_test.py`).
 - **Pseudobulk DE** is concentrated in midbrain glia: Oligo 2,179 genes, Micro_PVM 123, Astro 106, OPC 76. Cortex and striatum: 0–3 genes.
+- **Follow-up (20 Nov):**
+  - *PDGFRA*: fibroblasts express it too (197 vs 347 CPM in OPC), but OLIG2/SOX10/PTPRZ1 (OPC) and COL1A2/DCN/LAMA2 (fibroblast) separate the two cleanly.
+  - *DE with age, sex, PMI* (same midbrain donors): DE genes drop (Oligo 1,924 → 555, Micro_PVM 113 → 34, Astro 60 → 33, OPC 28 → 0); fold changes correlate 0.80–0.96. Most heat-shock genes lose significance in microglia and astrocytes, some stay in oligodendrocytes. PMI is the same in PD and control (median 16 h). Robust genes: GPNMB, CALCOCO2, NUPR1 (microglia), PSAT1, SLC7A11 (astrocytes), SLC38A2, IRS2, ABCC8 (oligodendrocytes).
+  - *DA subtypes*: AGTR1+ share of DA nuclei 27 % → 8 % in PD (21 donors with ≥ 10 DA nuclei, lower in 3/3 datasets, p = 0.02; with ≥ 5 DA nuclei, 31 donors, p = 0.08). CALB1+ unchanged, as in Kamath 2022.
+  - *Other Lewy-body diagnoses*: 4–6 donors per group from single datasets; nothing passes FDR. Cortical microglia up in PD and PDD.
 
 ## Open issues / questions
 
 1. **Test scale only.** With ≤ 200 nuclei per donor, many donors have 0–5 DA neurons. The DA_Neu DE result (9 donors) is underpowered. Everything has to be repeated in the full run.
 2. **Full run not set up yet.** Plan: Cayuga (`scu-cpu`, 768 GB nodes), `integration_mode = "sketch"`, which needs BPCells (not installed on the laptop). `presto` is also missing, so marker DE falls back to `FindAllMarkers` (slow).
-3. **DE confounders.** The model is `~ dataset + condition` only, with no PMI, age or sex. Heat-shock genes (DNAJA1, DNAJB6, CHORDC1, PTGES3) go up and CIRBP goes down in every glial type: a shared stress / agonal / PMI signature, not necessarily PD. To do: add covariates where the metadata exist, and focus on cell-type-specific genes.
+3. **DE confounders.** The main DE model is `~ dataset + condition`. Heat-shock genes (DNAJA1, DNAJB6, CHORDC1, PTGES3) go up and CIRBP goes down in every glial type. Adding age, sex and PMI (`05_DE_covariates.py`, donors with all three) removes part of this but not all of it in oligodendrocytes, and PMI does not differ between groups. Next: agonal state / cause of death where available. DDX3Y (Y-linked) stays DE in oligodendrocytes, so sex labels need checking.
 4. **Sorted libraries.** Neuron-sorted libraries inflate neuron fractions. For now they are excluded only in the composition analysis (metadata `enriched = TRUE`, plus midbrain libraries with > 40 % neurons). The 4 GSE253462 sorted libraries are not yet flagged in `config/sample_metadata.csv`, and the > 40 % rule is not yet part of the R pipeline.
 5. **GSE235330** has no donor or region per cell yet, so it is used for annotation only, not for PD vs control.
 6. **Striatum** has one dataset with 4 PD vs 4 control donors, which is too few for DE.
 7. **Composition numbers vs slides.** The 18 Nov lab-meeting slide gave DA_Neu FDR = 0.034. That came from an earlier version of the test that tested fewer cell types. The script here tests every cell type present in ≥ 10 donors, which gives FDR = 0.048. The direction and p-value are essentially the same.
-8. **OPC vs fibroblast (question from lab meeting).** PDGFRA is also expressed in fibroblasts. OPC calls require other panel markers (VCAN, OLIG2) and fibroblasts have their own panel (COL1A2, DCN), but this still needs an explicit check.
+8. **OPC vs fibroblast (question from lab meeting): checked.** See `05_followup.ipynb`: the other panel markers separate the two cleanly.
 9. **Shallow datasets lose most nuclei at QC** (GSE184950 keeps 29 %, GSE178146 44 %). Should these datasets get their own thresholds?
 10. **Other diagnoses** (PDD, DLB, LBD, AD in GSE178146, GSE178265 and GSE161045) are integrated but not yet analysed. A Lewy-body spectrum vs control comparison is a possible next step.
 11. **Author labels** are available for only a few datasets. More can be added through the `author_meta_*` columns in `config/datasets.csv`.
